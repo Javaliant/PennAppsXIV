@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PennApps</string>
+    <string name="sign_in">Sign in</string>
+    <string name="pennapps_logo">PennApps Logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="penn_apps_logo">Penn Apps Logo</string>
+    <string name="invalid_code">Not a valid code</string>
+    <string name="number">Number:</string>
+    <string name="email">Email:</string>
+    <string name="item">Item:</string>
+    <string name="name">Name:</string>
+    <string name="privacy_placeholder">*******</string>
+    <string name="details">Details</string>
+    <string name="submit">Submit</string>
+    <string name="call">call</string>
+    <string name="success">success</string>
+    <string name="message_sent_successfully">Message Sent Successfully</string>
+    <string name="scan_again">Scan Again</string>
+</resources>
