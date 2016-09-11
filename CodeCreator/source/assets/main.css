@@ -1,0 +1,58 @@
+/* Author: Luigi Vincent
+*
+* Primary stylesheet for the QR creating app
+*
+* Part of my submission to PennApps XIV
+*/
+
+.root {
+	-fx-font-family: Georgia;
+    -fx-base: #093c66;
+}
+
+.headers {
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+}
+
+.button {
+	-fx-font-weight: bold;
+	-fx-background-radius: 10;
+	-fx-border-radius: 10;
+}
+
+.label, .button, .text-field, .combo-box, #notificationLabel {
+	-fx-text-fill: #e9ebee;
+}
+
+.button, .menu:hover, .menu:showing, .combo-box, .combo-box:focused .arrow-button, .scroll-bar .increment-button, .scroll-bar .decrement-button {
+	-fx-background-color: #5C8AAF;
+}
+
+.combo-box .arrow-button {
+	-fx-background-color: #093c66;
+}
+
+.scroll-bar .thumb, .combo-box .arrow {
+	-fx-background-color: #0e61a6;
+}
+
+.combo-box:focused, .button:armed, .combo-box:focused .arrow-button {
+	-fx-border-color: #0e61a6;
+	-fx-border-width: 0.5;
+}
+
+.button:hover {
+	-fx-text-fill: #0e61a6;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(
+        from 0px .75em to .75em 0px,
+        repeat,
+        #0e61a6 0%,
+        #0e61a6 49%,
+        #062946 50%,
+        #062946 100%
+    );
+}
